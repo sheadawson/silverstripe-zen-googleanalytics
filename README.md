@@ -15,6 +15,10 @@ Copy the module into your project root directory, name it zen-googleanalytics, r
 Set your google analytics ID in your mysite/_config.php, eg.
 
 	ZenGoogleAnalytics::$ga_id = 'xxx';
+	
+Then place the template include in your themes Page.ss
+
+	<% include ZenGoogleAnalytics %>
 
 Maintainer Contact
 ------------
