@@ -2,4 +2,4 @@
 
 Object::add_extension('SiteTree', 'ZenGoogleAnalytics');
 
-//GoogleAnalytics::$googleAnalyticsCode = "";
+//ZenGoogleAnalytics::$ga_id = "";
