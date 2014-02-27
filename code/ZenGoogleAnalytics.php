@@ -2,11 +2,17 @@
 
 class ZenGoogleAnalytics extends SiteTreeExtension {
 
-	public static $ga_id;
+	private static $ga_id;
 
 	function GAID() {
 		if(Director::isLive()){
-			return self::$ga_id;
+			return Config::inst()->get('ZenGoogleAnalytics', 'ga_id');
+		}
+	}
+
+	public function onAfterInit(){
+		if($this->GAID()){
+			Requirements::customScript($this->owner->renderWith('ZenGoogleAnalytics'), 'ZenGoogleAnalytics');	
 		}
 	}
 }

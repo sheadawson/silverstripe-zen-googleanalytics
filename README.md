@@ -1,24 +1,23 @@
 silverstripe-zen-googleanalytics
 ================================
 
-A simple module for easily adding google analytics tracking to a silverstripe site
+A simple module for easily adding google analytics js tracking code to a silverstripe site
 
 Requirements
 ------------
 
-SilverStripe 2.x or 3.x
+SilverStripe 3.x
 
 Installation
 ------------
 
-Copy the module into your project root directory, name it zen-googleanalytics, run dev/build
-Set your google analytics ID in your mysite/_config.php, eg.
+Copy the module into your project root directory, run dev/build
+Set your google analytics ID in your mysite yml config.
 
-	ZenGoogleAnalytics::$ga_id = 'xxx';
-	
-Then place the template include in your themes Page.ss
-
-	<% include ZenGoogleAnalytics %>
+```
+ZenGoogleAnalytics:
+  ga_id: 'xxx';
+```
 
 Maintainer Contact
 ------------
