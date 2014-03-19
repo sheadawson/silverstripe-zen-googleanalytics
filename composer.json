@@ -1,0 +1,24 @@
+{
+	"name": "sheadawson/silverstripe-zen-googleanalytics",
+	"description": "A simple module for easily adding google analytics js tracking code to a silverstripe site.",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "google", "analytics"],
+	"homepage": "http://github.com/sheadawson/silverstripe-zen-googleanalytics",
+	"authors": [
+	{
+		"name": "Shea Dawson",
+		"email": "shea@silverstripe.com.au"
+	}
+	],
+	"require":
+	{
+		"silverstripe/framework": "3.*",
+		"composer/installers": "*"
+	},
+	"support": {
+		"issues": "https://github.com/sheadawson/silverstripe-zen-googleanalytics/issues"
+	},
+	"extra": {
+		"installer-name": "zen-googleanalytics"
+	}
+}
