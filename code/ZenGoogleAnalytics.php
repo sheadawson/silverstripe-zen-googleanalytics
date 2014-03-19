@@ -1,6 +1,6 @@
 <?php
 
-class ZenGoogleAnalytics extends SiteTreeExtension {
+class ZenGoogleAnalytics extends Extension {
 
 	private static $ga_id;
 
