@@ -15,7 +15,7 @@ class ZenGoogleAnalytics extends Extension {
 	}
 
 	public function onAfterInit(){
-		if(!$this->GAID()){
+		if($this->GAID()){
 			Requirements::customScript($this->owner->renderWith('ZenGoogleAnalytics'), 'ZenGoogleAnalytics');	
 		}
 	}
