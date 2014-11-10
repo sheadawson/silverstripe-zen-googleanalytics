@@ -16,7 +16,14 @@ Set your google analytics ID in your mysite yml config.
 
 ```
 ZenGoogleAnalytics:
-  ga_id: 'xxx';
+  ga_id: 'xxx'
+```
+
+Optionally enable the Google Analytics Display Features plugin:
+
+```
+ZenGoogleAnalytics:
+  enable_display_features: true
 ```
 
 Maintainer Contact

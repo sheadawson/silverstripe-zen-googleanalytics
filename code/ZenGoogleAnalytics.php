@@ -10,8 +10,12 @@ class ZenGoogleAnalytics extends Extension {
 		}
 	}
 
+	public function DisplayFeaturedEnabled(){
+		return Config::inst()->get('ZenGoogleAnalytics', 'enable_display_features');
+	}
+
 	public function onAfterInit(){
-		if($this->GAID()){
+		if(!$this->GAID()){
 			Requirements::customScript($this->owner->renderWith('ZenGoogleAnalytics'), 'ZenGoogleAnalytics');	
 		}
 	}

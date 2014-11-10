@@ -1,3 +1,5 @@
 ContentController:
   extensions:
     - ZenGoogleAnalytics
+ZenGoogleAnalytics:
+  enable_display_features: false
