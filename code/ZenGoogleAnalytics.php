@@ -4,6 +4,8 @@ class ZenGoogleAnalytics extends Extension {
 
 	private static $ga_id;
 
+	private static $enable_display_features = 1;
+
 	function GAID() {
 		if(Director::isLive()){
 			return Config::inst()->get('ZenGoogleAnalytics', 'ga_id');
