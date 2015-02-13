@@ -4,7 +4,7 @@ class ZenGoogleAnalytics extends Extension {
 
 	private static $ga_id;
 
-	private static $enable_display_features = 1;
+	private static $enable_display_features = true;
 
 	function GAID() {
 		if(Director::isLive()){
