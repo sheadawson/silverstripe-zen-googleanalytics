@@ -29,4 +29,4 @@ ZenGoogleAnalytics:
 Maintainer Contact
 ------------
 
-Shea@silverstripe.com.au
+shea@livesource.co.nz
